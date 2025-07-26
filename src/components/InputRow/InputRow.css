@@ -1,0 +1,46 @@
+.todo-ext-row {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 20px;
+  padding: 8px 12px;
+  margin-bottom: 3px;
+}
+
+input.todo-ext-input-row {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #333;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.todo-ext-input-row:focus {
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #999;
+  box-shadow: 0 0 4px rgb(121, 118, 118);
+}
+
+button.todo-ext-button-row {
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  background: #a7aaa8;
+  color: #040705;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.todo-ext-edit-input {
+  margin-top: 6px;
+  padding: 6px 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 90%;
+}
