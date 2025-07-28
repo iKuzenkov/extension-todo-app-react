@@ -11,7 +11,7 @@ const data = {
   copyMessege: "Copied!✅",
   hide: "👇",
   show: "👆",
-  dragIcon: "🖐️",
+  dragIcon: "🖐️🖐️",
 };
 
 function App() {
