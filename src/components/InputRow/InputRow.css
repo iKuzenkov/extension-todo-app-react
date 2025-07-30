@@ -10,15 +10,11 @@
 input.todo-ext-input-row {
   flex: 1;
   outline: none;
-  border-radius: 10px;
-  border: 1px solid #999;
+  border: none;
   background: transparent;
   color: #333;
   padding: 8px;
   font-size: 14px;
-}
-input.todo-ext-input-row:focus {
-  box-shadow: 0 0 4px rgb(121, 118, 118);
 }
 
 button.todo-ext-button-row {
