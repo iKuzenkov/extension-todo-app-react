@@ -9,22 +9,20 @@
 
 input.todo-ext-input-row {
   flex: 1;
-  border: none;
   outline: none;
+  border-radius: 10px;
+  border: 1px solid #999;
   background: transparent;
   color: #333;
   padding: 8px;
   font-size: 14px;
 }
-
-.todo-ext-input-row:focus {
-  outline: none;
-  border-radius: 10px;
-  border: 1px solid #999;
+input.todo-ext-input-row:focus {
   box-shadow: 0 0 4px rgb(121, 118, 118);
 }
 
 button.todo-ext-button-row {
+  margin-left: 2px;
   border: none;
   outline: none;
   padding: 8px 20px;
@@ -40,7 +38,7 @@ button.todo-ext-button-row {
   padding: 6px 10px;
   font-size: 15px;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid #999;
   outline: none;
   width: 90%;
 }

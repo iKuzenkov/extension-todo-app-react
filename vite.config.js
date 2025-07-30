@@ -1,10 +1,25 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { resolve } from "path";
+import { viteStaticCopy } from "vite-plugin-static-copy";
 
 export default defineConfig({
   base: "./",
-  plugins: [react()],
+  plugins: [
+    react(),
+    viteStaticCopy({
+      targets: [
+        {
+          src: "popup/*",
+          dest: "popup",
+        },
+        {
+          src: "manifest.json",
+          dest: ".",
+        },
+      ],
+    }),
+  ],
   build: {
     outDir: "dist",
     rollupOptions: {
