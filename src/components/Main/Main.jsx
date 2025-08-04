@@ -9,6 +9,7 @@ import gitHubIcon from "../images/github.png";
 import websiteIcon from "../images/website.png";
 import donateIcon from "../images/donate.png";
 import gmailIcon from "../images/gmail.png";
+import autoclick from "../images/autoclick.png";
 
 function Main({ data }) {
   const {
@@ -244,6 +245,18 @@ function Main({ data }) {
               rel="noopener noreferrer"
             >
               <img src={gmailIcon} alt="Gmail" title="Gmail" />
+            </a>
+
+            <a
+              href="https://chromewebstore.google.com/detail/mgadnfjigmdiljhffhjlopjfibddkneh?utm_source=item-share-cb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={autoclick}
+                alt="autoclick extansion"
+                title="Autoclick Extansion"
+              />
             </a>
           </div>
         </div>
