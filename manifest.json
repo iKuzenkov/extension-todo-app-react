@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Advanced To-Do List",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Advanced To-Do List Chrome Extension to help you focus on what matters — perfect for tasks, reminders, and office checklists.",
   "host_permissions": ["<all_urls>"],
   "content_scripts": [
