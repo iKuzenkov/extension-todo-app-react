@@ -133,17 +133,3 @@ input.todo-ext-change-color::-webkit-color-swatch {
     opacity: 0;
   }
 }
-
-.todo-ext-info {
-  margin: 3px auto;
-  width: max-content;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 5px;
-}
-
-.todo-ext-info a img {
-  width: 24px;
-  height: 24px;
-}
