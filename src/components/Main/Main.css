@@ -1,3 +1,14 @@
+.todo-ext-draggable-wrapper {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  cursor: default;
+  user-select: none;
+  display: inline-block;
+  width: max-content;
+  height: max-content;
+}
+
 .todo-ext-todo-app {
   width: 100%;
   max-width: 460px;
@@ -22,17 +33,6 @@
   top: 0px;
 }
 
-button.todo-ext-hide-show {
-  position: absolute;
-  top: 2px;
-  right: 8px;
-  background: none;
-  border-radius: 20px;
-  user-select: none;
-  cursor: pointer;
-  border: none;
-}
-
 .todo-ext-drag-icon {
   position: absolute;
   top: 0px;
@@ -44,92 +44,13 @@ button.todo-ext-hide-show {
   border: none;
 }
 
-.todo-ext-draggable-wrapper {
+button.todo-ext-hide-show {
   position: absolute;
-  top: 100px;
-  left: 100px;
-  cursor: default;
+  top: 2px;
+  right: 8px;
+  background: none;
+  border-radius: 20px;
   user-select: none;
-  display: inline-block;
-  width: max-content;
-  height: max-content;
-}
-
-.todo-ext-checkbox {
-  position: absolute;
-  top: 12px;
-  left: -25px;
-  height: 24px;
-  width: 24px;
-  border-radius: 50%;
-  object-fit: cover;
   cursor: pointer;
-}
-
-.todo-ext-task-actions {
-  display: flex;
-  gap: 6px;
-  align-items: center;
-  border-left: 1px solid green;
-}
-
-input.todo-ext-change-color {
-  width: 20px;
-  height: 20px;
-  border: 1px solid black;
-  border-radius: 50%;
-  cursor: pointer;
-  padding: 0;
-  appearance: none;
-}
-
-input.todo-ext-change-color::-webkit-color-swatch-wrapper,
-input.todo-ext-change-color::-webkit-color-swatch {
-  padding: 0;
   border: none;
-  border-radius: 50%;
-}
-
-.todo-ext-delete-btn,
-.todo-ext-copy-btn,
-.todo-ext-edit-btn {
-  width: 22px;
-  height: 22px;
-  font-size: 16px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 22px;
-  cursor: pointer;
-}
-
-.todo-ext-copy-container {
-  position: relative;
-}
-
-.todo-ext-copy-msg {
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #dff0d8;
-  color: #3c763d;
-  font-size: 11px;
-  border-radius: 4px;
-  padding: 2px 6px;
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 1;
-  animation: fadeOut 3s ease forwards;
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
 }
