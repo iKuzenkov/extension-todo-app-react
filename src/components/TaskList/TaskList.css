@@ -108,6 +108,7 @@ input.todo-ext-change-color::-webkit-color-swatch {
   border: 1px solid #999;
   outline: none;
   width: 90%;
+  color: rgb(0, 0, 0);
 }
 
 .todo-ext-delete-btn,
