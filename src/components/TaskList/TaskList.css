@@ -12,6 +12,7 @@ ul.todo-ext-list-container li {
   border-bottom: 1px solid #eee;
   margin-left: 0;
   position: relative;
+  user-select: text;
 }
 
 ul.todo-ext-list-container li.todo-ext-checked .todo-ext-task-text {
@@ -109,6 +110,7 @@ input.todo-ext-change-color::-webkit-color-swatch {
   outline: none;
   width: 90%;
   color: rgb(0, 0, 0);
+  background: #ffffff;
 }
 
 .todo-ext-delete-btn,
