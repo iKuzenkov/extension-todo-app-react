@@ -29,6 +29,7 @@ ul.todo-ext-list-container li.todo-ext-checked .todo-ext-task-text {
   border-radius: 50%;
   object-fit: cover;
   cursor: pointer;
+  user-select: none;
 }
 
 .todo-ext-task-row {
@@ -123,4 +124,5 @@ input.todo-ext-change-color::-webkit-color-swatch {
   text-align: center;
   line-height: 22px;
   cursor: pointer;
+  user-select: none;
 }
