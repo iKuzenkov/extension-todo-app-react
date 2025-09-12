@@ -20,7 +20,7 @@
   padding: 0px 12px;
   border-radius: 12px;
   font-family: sans-serif;
-  position: relative;
+  position: fixed;
   z-index: 99999;
 }
 
