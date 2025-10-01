@@ -11,14 +11,17 @@
 
 .todo-ext-todo-app {
   width: 100%;
-  max-width: 460px;
+  max-width: 35rem;
+  max-height: 50vh;
+  overflow-y: auto;
+  overflow-x: hidden;
   box-sizing: border-box;
-  background: #ffffff;
-  border: 1px solid rgb(10, 29, 26);
+  background: #fff;
+  border: none;
+  border-radius: 1rem;
   box-shadow: 0 4px 16px rgba(124, 223, 44, 0.1);
   margin: 0;
   padding: 0px 12px;
-  border-radius: 12px;
   font-family: sans-serif;
   position: fixed;
   z-index: 99999;
