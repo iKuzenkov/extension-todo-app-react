@@ -1,0 +1,30 @@
+.todo-ext-row {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 20px;
+  padding: 8px 2px;
+  margin-bottom: 3px;
+}
+
+input.todo-ext-input-row {
+  flex: 1;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #333;
+  padding: 8px;
+  font-size: 14px;
+}
+
+button.todo-ext-button-row {
+  margin-left: 2px;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  background: #a7aaa8;
+  color: #040705;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+}
