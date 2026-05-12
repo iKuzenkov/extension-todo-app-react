@@ -1,6 +1,7 @@
-# Advanced To-Do List | Notepad
+# Advanced To-Do List
 
-- Chrome Web Store: [https://chromewebstore.google.com/detail/mibfplaelemmjmeljhlfnhdmmajgdeio?utm_source=item-share-cb]
+- Chrome Web Store: https://chromewebstore.google.com/detail/mibfplaelemmjmeljhlfnhdmmajgdeio
+- 10+ active users per week
 
 ## Project description
 
@@ -11,44 +12,49 @@ This is an extension for any website, with advanced functionality.
 - Copy a task.
 - Assign a color to a task.
 - Deleting tasks.
-- Drag-and-drop functionality has been implemented.
+- Drag & Drop
 - Data is stored in **localStorage**.
 
 ---
 
 ## Technologies used
 
-- **React** (components, hooks)
+- **React**
+- **JavaScript**
 - **CSS** (dimensions are given in the pixel system)
+- **Vite**
 
 ---
 
 ## Project structure
 
-### External files and configurations (project root)
+### External files and configurations
 
 - .gitignore
 - eslint.config.js
 - manifest.json
 - package-lock.json
 - package.json
-- README.md (documentaton)
-- vite.config.js (with setting)
+- README.md
+- vite.config.js
 
 ### Folders
 
+<details>
+<summary>Open project structure</summary>
+
 ```
-popup/ (action window (to display the panel))
+popup/
     popup.html
     popup.css
     popup.js
 public/
-  icons/ (.png for Chrome Web Store)
+  icons/
     icon16.png
     icon32.png
     icon48.png
     icon128.png
-  images/ (.png for checkbox)
+  images/
     checked.png
     unchecked.png
 src/
@@ -74,9 +80,13 @@ src/
        TaskList.css
        TaskList.jsx
   App.jsx
-  content.jsx (entry point, messaging function for panel visibility)
+  content.jsx
 
 ```
+
+</details>
+
+---
 
 ### Additionally
 
